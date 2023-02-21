@@ -1,0 +1,61 @@
+.active {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#autocomplete:hover{
+    background-color: lightgray;
+}
+
+#autocomplete {
+    background-color: white;
+}
+
+.nav-item{
+    background-color: #ffc107;
+}
+
+#booking-table:hover{
+    background-color: lightgray;
+}
+
+#fill-tab-example-tab-details {
+    text-decoration: none;
+    color: black;
+}
+
+#fill-tab-example-tab-maps {
+    text-decoration: none;
+    color: black;
+}
+
+#fill-tab-example-tab-reviews {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(180deg,hsla(0,7%,94%,.5),rgba(14,18,241,.55)),url('../public/city.jpg');
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#mask{
+    background: linear-gradient(180deg,rgba(251, 249, 249, 0.3),rgba(242, 221, 221, 0.158));
+      min-height: 100vh;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .form-group {
+      display: block;
+    }
+    .nav {
+        
+    }
+
+  }
